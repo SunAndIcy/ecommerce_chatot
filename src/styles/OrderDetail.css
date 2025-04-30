@@ -1,0 +1,106 @@
+/* Container and layout */
+.order-details-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title and return link */
+  .order-details-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .order-details-return {
+    color: #007bff;
+    text-decoration: underline;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  .order-details-return:hover {
+    color: #0056b3;
+  }
+  
+  /* Order content */
+  .order-details-content {
+    border-top: 1px solid #e5e7eb;
+    padding-top: 20px;
+  }
+  
+  .order-id {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .order-date {
+    color: #6b7280;
+    margin-bottom: 20px;
+  }
+  
+  /* Grid layout */
+  .order-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+  }
+  
+  .order-table-container {
+    overflow-x: auto;
+  }
+  
+  /* Order table */
+  .order-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .order-table th,
+  .order-table td {
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .order-table th {
+    background-color: #f9fafb;
+    color: #374151;
+    font-weight: bold;
+  }
+  
+  .order-total-row {
+    font-weight: bold;
+  }
+  
+  /* Address section */
+  .order-address h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .billing-address,
+  .shipping-address {
+    margin-bottom: 20px;
+  }
+  
+  .billing-address p,
+  .shipping-address p {
+    font-size: 14px;
+    color: #4b5563;
+    margin: 2px 0;
+  }
+  
+  /* Loading text */
+  .loading {
+    font-size: 16px;
+    text-align: center;
+    color: #6b7280;
+  }
+  

@@ -1,0 +1,11 @@
+
+/* src/index.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eaeaea;
+}
+
+div {
+  box-sizing: border-box;
+}

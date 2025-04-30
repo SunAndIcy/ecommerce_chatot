@@ -1,0 +1,86 @@
+/* Header 容器 */
+.header {
+    display: flex;
+    justify-content: space-between; /* 左右分布 */
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #ffffff; /* 白色背景 */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* 添加轻微阴影 */
+    position: relative;
+  }
+  
+  /* 搜索框容器 */
+  .header-search {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* 水平居中 */
+    max-width: 500px; /* 限制搜索框的最大宽度 */
+    width: 100%; /* 自适应屏幕宽度 */
+    display: flex;
+    align-items: center;
+  }
+  
+  /* 搜索框 */
+  .search-input {
+    width: 100%;
+    padding: 10px 15px;
+    padding-right: 40px; /* 为搜索图标预留空间 */
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .search-input:focus {
+    border-color: #007bff;
+  }
+  
+  /* 搜索图标 */
+  .search-icon-inside {
+    position: absolute;
+    right: 10px; /* 靠近搜索框右边 */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px; /* 图标大小 */
+    height: 20px;
+    cursor: pointer;
+    transition: opacity 0.3s ease, transform 0.2s ease;
+  }
+  
+  .search-icon-inside:hover {
+    opacity: 0.8;
+    transform: scale(1.1); /* 鼠标悬停时放大 */
+  }
+  
+  /* 登录图标 */
+  .header-links {
+    margin-left: auto; /* 确保登录图标始终靠右 */
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-icon {
+    width: 25px; /* 图标大小 */
+    height: 25px; /* 确保高度与搜索框一致 */
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.3s ease;
+  }
+  
+  .login-icon:hover {
+    transform: scale(1.1); /* 鼠标悬停时放大 */
+    opacity: 0.8; /* 鼠标悬停时透明度变化 */
+  }
+
+  .logout-text {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #007bff;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .logout-text:hover {
+    color: #0056b3;
+  }
+  
